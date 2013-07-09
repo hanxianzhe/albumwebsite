@@ -1,0 +1,135 @@
+﻿@import "link.css";
+@import "headleCss3.css";
+body {
+    background-color:#fff;
+}
+#wrapper {
+    padding-top:310px;
+}
+#msn_login {
+position: relative;
+min-height: 450px;
+}
+.login_bd .msn_login {
+    width:400px;
+    margin-left:-200px;
+}
+.login_bd {
+    position:absolute;
+    left:50%;
+    margin-left:-350px;
+    z-index:1;
+    top:-90px;
+}
+.login_bd, .login_bd .login_alp {
+    width:400px;
+    height:360px;
+}
+.login_bd .login_mod {
+    width:400px;
+    height:390px;
+    position:absolute;
+    right:0;
+    top:0;
+    opacity:0.9;
+}
+.login_bd h3.logo {
+    background:#238fca ;
+    font-size:40px;
+}
+.login_mod .login_title {
+position: relative;
+height: 90px;
+padding: 0 25px;
+line-height: 90px;
+font-size: 30px;
+}
+.login_bd .login_title {
+font-weight: bold;
+font-size: 16px;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, select {
+color: #666;
+}
+h1, h2, h3, h4, h5, h6 {
+font-size: 100%;
+font-weight: 500;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+margin: 0;
+padding: 0;
+}
+ul {
+    list-style:none;
+}
+h3 {
+display: block;
+font-size: 1.17em;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+font-weight: bold;
+text-align:center;
+}
+.loging {
+border-left: 1px solid #c9c9c9;
+border-right: 1px solid #c9c9c9;
+padding: 25px 0;
+width: 322px;
+}
+.loging li {
+margin: 0 25px;
+min-height: 40px;
+}
+.loging .login_txt {
+padding: 8px 4px;
+height: 22px;
+line-height: 22px;
+width: 188px;
+border: 0 none;
+margin-top:8px;
+}
+.i_lcol_01 {
+border: 1px solid #ebebeb;
+border-top-color: rgb(235, 235, 235);
+border-top-style: solid;
+border-top-width: 1px;
+border-right-color: rgb(235, 235, 235);
+border-right-style: solid;
+border-right-width: 1px;
+border-bottom-color: rgb(235, 235, 235);
+border-bottom-style: solid;
+border-bottom-width: 1px;
+border-left-color: rgb(235, 235, 235);
+border-left-style: solid;
+border-left-width: 1px;
+}
+.i_white_bg, .i_header .lx_set, .i_data_list, .i_data_list .i_list_p >span.i_span {
+background-color: #fff;
+}
+.i_cl_06, .login_sub:hover, .i_green_but, .i_green_but:hover, .i_green_bt2, .i_green_bt2:hover, .i_replay_but2, .i_replay_but2:hover {
+color: #fff;
+}
+.login_sub {
+display: block;
+width: 100%;
+height: 50px;
+text-align: center;
+line-height: 50px;
+font-weight: bold;
+font-size: 20px;
+font-weight: bold;
+margin-top: 25px;
+}
+.login_mod .login_title .login_reg, .login_sub, .loging li .label, .i_green_but, .i_gray_but, .i_green_bt2, .i_gray_bt2, .i_replay_but2, .i_add_attention >em, .q_mainElem .q_banner, .q_mainElem .q_banner >em.q_ex, .backTop, .i_upload_but, .q_rightBar .q_setBtn, .winner_reply >.winner_Cup {
+background-image: url(img/i_default_button.png);
+background-position: 0 0;
+background-repeat: no-repeat;
+}
+a, .i_blue, .notice_msg h3, .i_data_list a:hover, .q_classify .q_class_ul >li a:hover, .q_bElems a:hover, .S_module .s_xs >em.s, .i_globalPage >a:hover, .t_topicMain >.t_hot .p_time a:hover, #msgDropdown >p a {
+color: #105db5;
+}
+.i_fb_14{
+    background-image:url(../Images/button_bg_01.png);
+}

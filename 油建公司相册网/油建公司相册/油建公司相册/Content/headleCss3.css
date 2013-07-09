@@ -1,0 +1,22 @@
+﻿input[type="password"] {
+  font-family:微软雅黑, Tahoma;
+  font-size:22px;
+  font-weight:bolder;
+}
+input, select, textarea, .loging li.cur {
+}
+.login_entrance, .q_mainElem .q_banner {
+  text-shadow:#FFFFFF 0 0 1px;
+}
+.i_noticetxt {
+  box-shadow:#FFFFFF 0 0 1px inset;
+}
+.i_search .i_wd {
+  box-shadow:#BABABA 0 0 3px inset;
+}
+.i_cur, .i_elmsInputs input[type="password"]:focus, .i_elmsInputs input[type="text"]:focus, .i_elmsInputs select:focus, .loging li.cur {
+  box-shadow:#999999 0 0 2px !important;
+}
+.i_textArea, .i_glotxtClass, .i_relayHandle .i_textArea, .i_relayHandle .i_verification, .i_elmsInputs input[type="password"], .i_elmsInputs input[type="text"], .i_elmsInputs select {
+  box-shadow:#DFDFDF 0 1px 2px inset;
+}
